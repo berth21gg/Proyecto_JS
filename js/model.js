@@ -40,4 +40,5 @@ export default class Model{
         const index = this.findTodo(id);
         this.todos.splice(index, 1);
     }
+    
 }

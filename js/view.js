@@ -51,4 +51,5 @@ export default class View{
         removeBtn.onclick = () => this.removeTodo(todo.id);
         row.children[3].appendChild(removeBtn);
     }
+    
 }
